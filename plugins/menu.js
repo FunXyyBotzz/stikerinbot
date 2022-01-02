@@ -205,7 +205,7 @@ ${readMore}
 ┌〔 DAFTAR MENU 〕─•
 ├• ${_p + command} all
 ├• ${_p + command} game
-├• ${_p + command} rpg
+
 ├• ${_p + command} jadian
 ├• ${_p + command} xp
 ├• ${_p + command} stiker
