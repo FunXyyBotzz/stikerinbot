@@ -185,14 +185,14 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         enabled: !plugin.disabled,
       }
     })
-    if (teks == '404') {
-      return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
-        "listMessage": {
-          "title": `${ucapan()}, ${name}`.trim(),
-          "description": "© stikerin",
-          "buttonText": "Klik Disini",
-          "listType": "SINGLE_SELECT",
-          "sections": [
+    //if (teks == '404') {
+     // return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
+      //  "listMessage": {
+        //  "title": `${ucapan()}, ${name}`.trim(),
+         // "description": "© stikerin",
+          // "buttonText": "Klik Disini",
+           // "listType": "SINGLE_SELECT",
+         // "sections": [
             {
               "rows": [
                 {
@@ -292,10 +292,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                 }
               ]
             }
-          ], "contextInfo": {
-            "stanzaId": m.key.id,
-            "participant": m.sender,
-            "quotedMessage": m.message
+         // ], "contextInfo": {
+          //  "stanzaId": m.key.id,
+          //  "participant": m.sender,
+          //  "quotedMessage": m.message
           }
         }
       }, {}), { waitForAck: true })
