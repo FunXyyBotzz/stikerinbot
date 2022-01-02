@@ -1,7 +1,7 @@
 {
-  "name": "stikerinbot",
+  "name": "PilarSyg",
   "version": "1.1.2",
-  "description": "WhatsApp Bot Ringan",
+  "description": "Recode By Pilar",
   "main": "index.js",
   "directories": {
     "lib": "lib",
@@ -19,7 +19,7 @@
   "keywords": [
     "whatsapp-bot"
   ],
-  "author": "Ariffb",
+  "author": "Pilar",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ariffb25/stikerinbot/issues"
